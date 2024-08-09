@@ -41,6 +41,10 @@
 (macro_definition
   name: (identifier) @AlabasterDefinition)
 
+
+(call_expression
+  function: (identifier) @AlabasterDefinition)
+
 (for_expression
   "in" @AlabasterPunctuation)
 (type_arguments

@@ -13,3 +13,7 @@
 
 (method_declaration
   name: (field_identifier) @AlabasterDefinition)
+
+(call_expression
+  function: (identifier) @AlabasterDefinition)
+
