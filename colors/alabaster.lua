@@ -767,4 +767,34 @@ for group, hl in pairs(theme) do
     vim.api.nvim_set_hl(0, group, hl)
 end
 
+
+local function highlight(group, opts)
+  local cmd = 'highlight ' .. group .. ' '
+  for k, v in pairs(opts) do
+    cmd = cmd .. k .. '=' .. v .. ' '
+  end
+  vim.cmd(cmd)
+end
+
+
+ighlight('LspSemanticTokenComment', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenVariable', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenFunction', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenMethod', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenKeyword', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenType', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenProperty', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenEnum', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenInterface', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenStruct', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenVariableLocal', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenVariableGlobal', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenVariableStatic', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenVariableInstance', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenFunctionStatic', {ctermfg='NONE', guifg='NONE'})
+highlight('LspSemanticTokenFunctionInstance', {ctermfg='NONE', guifg='NONE'})
+
+
+
+
 -- vi:nowrap
