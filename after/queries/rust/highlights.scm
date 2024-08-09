@@ -41,7 +41,6 @@
 (macro_definition
   name: (identifier) @AlabasterDefinition)
 
-
 (call_expression
   function: (identifier) @AlabasterDefinition)
 
