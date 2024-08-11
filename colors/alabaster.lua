@@ -384,7 +384,7 @@ if vim.o.background == "dark" then
         nasmLabel = { link = "@AlabasterDefinition" },
 
         -- LSP
-        ["@lsp.type.keyword"] = { fg = def_fg },--{ link = "@keyword" },
+      --  ["@lsp.type.keyword"] = { fg = def_fg },--{ link = "@keyword" },
         ["@lsp.type.namespace"] = { link = "@module" },
         ["@lsp.type.number"] = { link = "@number" },
         ["@lsp.type.operator"] = { link = "@operator" },
