@@ -768,6 +768,12 @@ else
         --- asm
         asmDirective = { fg = dim_comment },
         nasmLabel = { link = "@AlabasterDefinition" },
+
+        ["@lsp.type.namespace"] = { link = "@module" },
+        ["@lsp.type.number"] = { link = "@number" },
+        ["@lsp.type.operator"] = { link = "@operator" },
+        ["@lsp.type.function"]= { fg = def_fg },
+        ["@lsp.type.method"] = { fg = def_fg },
     }
 end
 
