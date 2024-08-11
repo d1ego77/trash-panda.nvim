@@ -390,6 +390,7 @@ if vim.o.background == "dark" then
         ["@lsp.type.operator"] = { link = "@operator" },
         ["@lsp.type.function"]= { fg = def_fg },
         ["@lsp.type.method"] = { fg = def_fg },
+        ["@table"] = { fg = def_fg },
     }
 else
     -- terminal colors
