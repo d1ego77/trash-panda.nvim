@@ -25,7 +25,7 @@
 
 "=" @operator
 
-"[" @punctuation.bracket
+"[" @string
 "]" @punctuation.bracket
 "[[" @punctuation.bracket
 "]]" @punctuation.bracket
