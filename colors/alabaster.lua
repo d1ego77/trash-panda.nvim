@@ -387,7 +387,8 @@ if vim.o.background == "dark" then
         ["@lsp.type.keyword"] = { fg = def_fg },--{ link = "@keyword" },
         ["@lsp.type.namespace"] = { link = "@module" },
         ["@lsp.type.number"] = { link = "@number" },
-        ["@lsp.type.operator"] = { link = "@operator" },    
+        ["@lsp.type.operator"] = { link = "@operator" },
+        ["@lsp.type.function"]= { link = "@AlabasterDefinition" },
     }
 else
     -- terminal colors
