@@ -1,7 +1,8 @@
 ; Properties
 ;-----------
 
-(bare_key) @property
+;(bare_key) @property
+(bare_key) @string
 (quoted_key) @string
 (table) @string
 ; Literals
