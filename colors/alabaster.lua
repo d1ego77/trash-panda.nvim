@@ -266,7 +266,8 @@ if vim.o.background == "dark" then
         ["@string.regex"] = { bg = "#1d292b", fg = const_fg },
         ["@string.escape"] = { bg = "#1d292b", fg = const_fg },
         ["@symbol"] = {},
-        ["@type"] = { fg = ansi.white },
+        ["@type"] = { fg = def_fg },
+        --["@type"] = { fg = ansi.white },
         ["@type.builtin"] = { fg = ansi.white },
         ["@variable"] = { fg = ansi.white },
         ["@variable.builtin"] = { fg = ansi.white },
@@ -384,10 +385,12 @@ if vim.o.background == "dark" then
         nasmLabel = { link = "@AlabasterDefinition" },
 
         -- LSP
-        ["@lsp.type.keyword"] = { link = "@keyword" },
+      --  ["@lsp.type.keyword"] = { fg = def_fg },--{ link = "@keyword" },
         ["@lsp.type.namespace"] = { link = "@module" },
         ["@lsp.type.number"] = { link = "@number" },
-        ["@lsp.type.operator"] = { link = "@operator" },    
+        ["@lsp.type.operator"] = { link = "@operator" },
+        ["@lsp.type.function"]= { fg = def_fg },
+        ["@lsp.type.method"] = { fg = def_fg },
     }
 else
     -- terminal colors
@@ -650,7 +653,8 @@ else
         ["@string.regex"] = { bg = bg, fg = "#777777" },
         ["@string.escape"] = { bg = bg, fg = "#777777" },
         ["@symbol"] = {},
-        ["@type"] = { fg = ansi.black },
+        ["@type"] = { fg = def_fg },
+        --["@type"] = { fg = ansi.black },
         ["@type.builtin"] = { fg = ansi.black },
         ["@variable"] = { fg = ansi.black },
         ["@variable.builtin"] = { fg = ansi.black },
@@ -766,6 +770,12 @@ else
         --- asm
         asmDirective = { fg = dim_comment },
         nasmLabel = { link = "@AlabasterDefinition" },
+
+        ["@lsp.type.namespace"] = { link = "@module" },
+        ["@lsp.type.number"] = { link = "@number" },
+        ["@lsp.type.operator"] = { link = "@operator" },
+        ["@lsp.type.function"]= { fg = def_fg },
+        ["@lsp.type.method"] = { fg = def_fg },
     }
 end
 
