@@ -3,8 +3,8 @@
 
 (class_declaration
   name: (identifier) @AlabasterDefinition)
-(struct_declaration
-  name: (identifier) @AlabasterDefinition)
+;--(struct_declaration
+;--  name: (identifier) @AlabasterDefinition)
 (interface_declaration
   name: (identifier) @AlabasterDefinition)
 (record_declaration
