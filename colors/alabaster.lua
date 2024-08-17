@@ -582,8 +582,8 @@ else
         DiagnosticHint = { fg = hint },
         DiagnosticInfo = { fg = info },
         DiagnosticVirtualTextError = { bg = "#EAEAEA", fg = error },
-        DiagnosticVirtualTextWarn = { bg = "#EAEAEA", fg = "#BC7500" },
-        DiagnosticVirtualTextHint = { fg = "#0F171D", bg = "#C3D0DA" },
+        DiagnosticVirtualTextWarn = { bg = "#EAEAEA", fg = warn },
+        DiagnosticVirtualTextHint = { fg = "#EAEAEA", bg = hint },
         DiagnosticVirtualTextInfo = { bg = "#ADFFB7", fg = "#042F09" },
 
         --- Treesitter
