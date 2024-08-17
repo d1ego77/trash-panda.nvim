@@ -582,7 +582,7 @@ else
         DiagnosticHint = { fg = hint },
         DiagnosticInfo = { fg = info },
         DiagnosticVirtualTextError = { bg = "#F8B28F", fg = "#411414" },
-        DiagnosticVirtualTextWarn = { bg = "#a6a6a6", fg = "#F0AD4E" },
+        DiagnosticVirtualTextWarn = { bg = "#0e1415", fg = "#f4b371" },
         DiagnosticVirtualTextHint = { fg = "#0F171D", bg = "#C3D0DA" },
         DiagnosticVirtualTextInfo = { bg = "#ADFFB7", fg = "#042F09" },
 
