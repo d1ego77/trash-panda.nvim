@@ -581,10 +581,10 @@ else
         DiagnosticWarn = { fg = warn },
         DiagnosticHint = { fg = hint },
         DiagnosticInfo = { fg = info },
-        DiagnosticVirtualTextError = { bg = "#EAEAEA", fg = error },
-        DiagnosticVirtualTextWarn = { bg = "#EAEAEA", fg = warn },
-        DiagnosticVirtualTextHint = { bg = "#EAEAEA", fg = "#51ACC7" },
-        DiagnosticVirtualTextInfo = { bg = "#ADFFB7", fg = "#042F09" },
+        DiagnosticVirtualTextError = { bg = bg, fg = error },
+        DiagnosticVirtualTextWarn = { bg = bg, fg = warn },
+        DiagnosticVirtualTextHint = { bg = bg, fg = "#51ACC7" },
+        DiagnosticVirtualTextInfo = { bg = bg, fg = "#042F09" },
 
         --- Treesitter
         TSAttribute = {},
