@@ -92,7 +92,7 @@ if vim.o.background == "dark" then
         SignColumn = {},
         IncSearch = { bg = ansi.yellow, fg = bg },
         -- Substitute   { }, -- |:substitute| replacement text highlighting
-        LineNr = { fg = "#5c5c5c" },
+        LineNr = { fg = "#a2a4a4" },
         CursorLineNr = { fg = ansi.blue, bold = 1 },
         MatchParen = { underline = 1, sp = active },
         -- ModeMsg      { }, -- 'showmode' message (e.g., "-- INSERT -- ")
