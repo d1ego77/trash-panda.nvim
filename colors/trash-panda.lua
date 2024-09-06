@@ -443,6 +443,7 @@ else
         white = "#f7f7f7",
         yellow = "#cb9000",
     }
+    local property_fg = "#08676d"
     local error = "#d13e23"
     local warn = "#BC7500"
     local hint = ansi.blue
@@ -645,7 +646,7 @@ else
         ["@none"] = { fg = const_fg },
         ["@parameter"] = { fg = ansi.black },
         ["@parameter.reference"] = { fg = ansi.black },
-        ["@property"] = { fg = ansi.black },
+        ["@property"] = { fg = property_fg },
         ["@punctuation.delimiter"] = { fg = punct_fg },
         ["@punctuation.bracket"] = { fg = punct_fg },
         ["@punctuation.special"] = { fg = punct_fg },
