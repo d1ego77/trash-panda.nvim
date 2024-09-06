@@ -395,7 +395,7 @@ if vim.o.background == "dark" then
     }
 else
     -- terminal colors
-    vim.g.terminal_color_0 = "#000000"
+    vim.g.terminal_color_0 = "#515252"
     vim.g.terminal_color_1 = "#aa3731"
     vim.g.terminal_color_2 = "#448c27"
     vim.g.terminal_color_3 = "#cb9000"
