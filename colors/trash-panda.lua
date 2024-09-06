@@ -3,7 +3,7 @@ if vim.fn.exists("syntax_on") == 1 then
     vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "alabaster"
+vim.g.colors_name = "trash-panda"
 
 local theme
 ---@diagnostic disable: undefined-global
@@ -414,7 +414,7 @@ else
 
     -- colors
     local bg = "#f7f7f7"
-    local fg = "#000000"
+    local fg = "#515252"
     local punct_fg = "#777777"
     local def_fg = "#325cc0"
     local const_fg = "#7a3e9d"
