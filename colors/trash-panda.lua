@@ -639,7 +639,7 @@ else
         ["@keyword"] = { fg = ansi.magenta },
         ["@keyword.function"] = { fg = ansi.magenta },
         ["@label"] = { fg = ansi.black },
-        ["@method"] = { fg = ansi.black },
+        ["@method"] = { fg = ansi.green },
         ["@module"] = { fg = ansi.black },
         ["@namespace"] = { fg = ansi.black },
         ["@none"] = { fg = const_fg },
