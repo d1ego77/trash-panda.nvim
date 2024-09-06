@@ -417,7 +417,7 @@ else
     local fg = "#515252"
     local punct_fg = "#777777"
     local def_fg = "#19650b"
-    local const_fg = "#7a3e9d"
+    local const_fg = "#B4340B"
     local active = "#ffbc5d"
     local active_blue = "#007acc"
     local string_fg = "#83731f"
