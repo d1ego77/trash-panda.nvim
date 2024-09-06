@@ -426,8 +426,8 @@ else
     local diffdelete = "#B40600"
     local diffchange = "#ec8013"
     local statusline = "#c9c9c9"
-    local comment = "#808080"
-    local dim_comment = "#696969"
+    local comment = "#a2a4a4"
+    local dim_comment = "#a2a4a4"
     local mistake = {
         fg = "#c33c33",
         bg = "#f8b28f",
