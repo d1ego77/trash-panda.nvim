@@ -438,7 +438,7 @@ else
         brightyellow = "#ffbc5d",
         cyan = "#0083b2",
         green = "#448c27",
-        magenta = "#7a3e9d",
+        magenta = "#4716b5",
         red = "#aa3731",
         white = "#f7f7f7",
         yellow = "#cb9000",
