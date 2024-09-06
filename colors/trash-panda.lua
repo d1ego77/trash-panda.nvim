@@ -433,7 +433,7 @@ else
         bg = "#f8b28f",
     }
     local ansi = {
-        black = "#000000",
+        black = "#515252",
         blue = "#325cc0",
         brightyellow = "#ffbc5d",
         cyan = "#0083b2",
