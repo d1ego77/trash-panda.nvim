@@ -416,7 +416,7 @@ else
     local bg = "#f7f7f7"
     local fg = "#515252"
     local punct_fg = "#777777"
-    local def_fg = "#19650b"
+    local def_fg = "#325cc0"
     local const_fg = "#B4340B"
     local active = "#ffbc5d"
     local active_blue = "#007acc"
