@@ -443,7 +443,7 @@ else
         white = "#f7f7f7",
         yellow = "#cb9000",
     }
-    local property_fg = "#08676d"
+    local property_fg = "#0f68A0"
     local error = "#d13e23"
     local warn = "#BC7500"
     local hint = ansi.blue
