@@ -416,11 +416,11 @@ else
     local bg = "#f7f7f7"
     local fg = "#515252"
     local punct_fg = "#777777"
-    local def_fg = "#19650b"
+    local def_fg = "#325cc0"
     local const_fg = "#B4340B"
     local active = "#ffbc5d"
     local active_blue = "#007acc"
-    local string_fg = "#83731f"
+    local string_fg = "#448c27"
     local darker_fg = "#7d7d7d"
     local diffadd = "#284918"
     local diffdelete = "#B40600"
@@ -629,15 +629,15 @@ else
         ["@error"] = { bg = mistake.bg, fg = mistake.fg },
         ["@exception"] = { fg = ansi.black },
         ["@field"] = { fg = ansi.black },
-        ["@function"] = { fg = ansi.green },
+        ["@function"] = { fg = ansi.blue },
         ["@function.builtin"] = { fg = ansi.black },
         ["@function.macro"] = { fg = ansi.black },
-        ["@function.call"] = { fg = ansi.green },
-        ["@function.method.call"] = { fg = ansi.green },
+        ["@function.call"] = { fg = ansi.blue },
+        ["@function.method.call"] = { fg = ansi.blue },
         ["@keyword"] = { fg = ansi.magenta },
         ["@keyword.function"] = { fg = ansi.magenta },
         ["@label"] = { fg = ansi.black },
-        ["@method"] = { fg = ansi.green },
+        ["@method"] = { fg = ansi.blue },
         ["@module"] = { fg = ansi.black },
         ["@namespace"] = { fg = ansi.black },
         ["@none"] = { fg = const_fg },
