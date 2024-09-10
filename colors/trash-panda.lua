@@ -420,7 +420,7 @@ else
     local const_fg = "#B4340B"
     local active = "#ffbc5d"
     local active_blue = "#007acc"
-    local string_fg = "#c41a16"
+    local string_fg = "#448c27"
     local darker_fg = "#7d7d7d"
     local diffadd = "#284918"
     local diffdelete = "#B40600"
@@ -641,6 +641,7 @@ else
         ["@module"] = { fg = ansi.black },
         ["@namespace"] = { fg = ansi.black },
         ["@none"] = { fg = const_fg },
+        ["@number"] = { fg = "#1c00cf" },
         ["@parameter"] = { fg = ansi.black },
         ["@parameter.reference"] = { fg = ansi.black },
         ["@property"] = { fg = property_fg },
