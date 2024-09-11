@@ -641,7 +641,7 @@ else
         ["@module"] = { fg = ansi.black },
         ["@namespace"] = { fg = ansi.black },
         ["@none"] = { fg = const_fg },
-        ["@number"] = { fg = "#1c00cf" },
+        ["@number"] = { fg = const_fg  },
         ["@parameter"] = { fg = ansi.black },
         ["@parameter.reference"] = { fg = ansi.black },
         ["@property"] = { fg = property_fg },
