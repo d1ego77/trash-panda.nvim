@@ -420,7 +420,7 @@ else
     local const_fg = "#6c36a9"
     local active = "#ffbc5d"
     local active_blue = "#007acc"
-    local string_fg = "#c41a16"
+    local string_fg = "#19650b"
     local darker_fg = "#7d7d7d"
     local diffadd = "#284918"
     local diffdelete = "#B40600"
