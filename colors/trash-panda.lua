@@ -60,6 +60,7 @@ if vim.o.background == "dark" then
         white = "#cecece",
         yellow = "#cd974b",
     }
+    local realblack = "#000000"
     local comment_fg = vim.g.alabaster_dim_comments and dim_comment or comment
     local pmenu_bg = "#182325"
     local float_bg = vim.g.alabaster_floatborder and bg or pmenu_bg
@@ -428,6 +429,7 @@ else
     local statusline = "#c9c9c9"
     local comment = "#a2a4a4"
     local dim_comment = "#a2a4a4"
+    local realblack = "#000000"
     local mistake = {
         fg = "#c33c33",
         bg = "#f8b28f",
@@ -629,11 +631,11 @@ else
         ["@error"] = { bg = mistake.bg, fg = mistake.fg },
         ["@exception"] = { fg = ansi.black },
         ["@field"] = { fg = ansi.black },
-        ["@function"] = { fg = ansi.blue },
-        ["@function.builtin"] = { fg = ansi.black },
+        ["@function"] = { fg = realblack },
+        ["@function.builtin"] = { fg = realblack },
         ["@function.macro"] = { fg = ansi.black },
-        ["@function.call"] = { fg = ansi.blue },
-        ["@function.method.call"] = { fg = ansi.blue },
+        ["@function.call"] = { fg = realblack },
+        ["@function.method.call"] = { fg = realblack },
         ["@keyword"] = { fg = ansi.magenta },
         ["@keyword.function"] = { fg = ansi.magenta },
         ["@label"] = { fg = ansi.black },
