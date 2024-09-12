@@ -669,7 +669,7 @@ else
 
         --- Theme specific
         ["@AlabasterConstant"] = { fg = const_fg },
-        ["@AlabasterDefinition"] = { fg = def_fg },
+        ["@AlabasterDefinition"] = { fg = def_fg , bold = 1},
         ["@AlabasterPunct"] = { fg = punct_fg },
         ["@AlabasterString"] = { fg = string_fg },
         ["@AlabasterHashbang"] = { fg = dim_comment },
